@@ -5,8 +5,8 @@
 #include "Net/UnrealNetwork.h"
 #include "GameplayEffectExtension.h"
 
-UXAttributeSet::UXAttributeSet()
-    : Health(100.f), MaxHealth(100.f), Defense(100.f), Accuracy(100.f), Speed(100.f), Potency(100.f)
+UXAttributeSet::UXAttributeSet() 
+    : Health(1000.f), MaxHealth(1000.f), Defense(100.f), Accuracy(100.f), Speed(100.f), Potency(100.f)
 {
 
 }
