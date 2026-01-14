@@ -18,6 +18,7 @@ AMyPawn::AMyPawn()
 
 	AttributeSet = CreateDefaultSubobject<UXAttributeSet>(TEXT("AttributeSet"));
 
+	SelectedSpell = TEXT(" ");
 
 }
 

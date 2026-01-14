@@ -22,6 +22,9 @@ public:
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString SelectedSpell;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
